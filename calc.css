@@ -1,0 +1,190 @@
+.calc-form{
+    background: bisque;
+    padding: 50px;
+}
+.calc-form form{
+    background: rgb(44, 44, 185);
+    width: 360px;
+    top: -100px;
+    position: relative;
+    left: 20%;
+    height: 450px;
+    margin: 100px 0 0 50px;
+    border-radius:15px; 
+}
+.calc-form form h3{
+    position: absolute;
+    color: white;
+    left: 35%;
+    padding-top: 5px;
+}
+.calc-form .calc-result{
+    background: white;
+    width: 265px;
+    padding: 10px 5px 5px 10px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    font-size: 20px;
+    top: 10%;
+    left: 11.3%;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+.calc-form button{
+    position: relative;
+    top: 40%;
+    left: 19%;
+    width: 30px;
+    font-size: 20px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 5px;
+    border: none;
+    border-radius: 35px;
+    outline: none;
+    cursor: pointer;
+    line-height: 24px;
+    height: 34px;
+}
+.calc-form button:first-of-type{
+    position: relative;
+    top: 88%;
+    left: 15%;
+}
+.calc-form button:nth-of-type(2){
+    position: absolute;
+    top: 46%;
+    left: 15%;
+}
+.calc-form button:nth-of-type(3){
+    position: absolute;
+    left: 36%;
+    top: 46%;
+}
+.calc-form button:nth-of-type(4){    
+    position: absolute;
+    left: 57%;
+    top: 46%;
+}
+.calc-form button:nth-of-type(5){
+    position: absolute;
+    left: 15%;
+    top: 60%;
+}
+.calc-form button:nth-of-type(6){
+    position: absolute;
+    top: 60%;
+    left: 36%;
+}
+.calc-form button:nth-of-type(7){
+    position: absolute;
+    top: 60%;
+    left: 57%;
+}
+.calc-form button:nth-of-type(8){
+    left: 15%;
+    position: absolute;
+    top: 74%;
+}
+.calc-form button:nth-of-type(9){
+    position: absolute;
+    top: 74%;
+    left: 36%;
+}
+.calc-form button:nth-of-type(10){
+    position: absolute;
+    top:74%;
+    left: 57%;
+}
+
+.calc-form form  .btn-plus{
+    position: absolute;
+    background: teal;
+    top: 46%;
+    left: 77%;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 23px;
+}
+.calc-form form  .btn-sub{
+    position: absolute;
+    background: teal;
+    top: 60%;
+    left: 77%;
+    display: flex;
+    line-height: 18px;
+    justify-content: center;
+    font-size: 45px;
+}
+.calc-form form  .btn-multy{
+    position: absolute;
+    background: teal;
+    top: 74%;
+    left: 77%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 20px;
+}
+.calc-form form  .btn-div{
+    position: absolute;
+    background: teal;
+    top: 34%;
+    left: 77%;
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    line-height: 20px;
+}
+.calc-form form .btn-mod{
+    background: teal;
+    position: absolute;
+    top: 34%;
+    left: 57%;
+    font-size: 22px;
+}
+.calc-form form .btn-CON{
+    position: absolute;
+    top: 34%;
+    left: 39%;
+    background: mediumvioletred;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    line-height: 19px;
+    padding: 3px 2px 3px 7px;
+}
+.calc-form form .btn-deci{
+    position: absolute;
+    top: 88%;
+    left: 36%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 1px;
+}
+.calc-form form  .btn-equal{
+    background: green;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 57%;
+    font-size: 35px;
+    width: 105px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+.calc-form form .btn-clear{
+    background: red;
+    color: white;
+    position: absolute;
+    top: 34%;
+    left: 12%;
+    width: 80px;
+    font-size: 16px;
+}
